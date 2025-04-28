@@ -1,0 +1,32 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+build/
+flutter_*.png
+
+# Web specific
+web/.dart_tool/
+web/build/
+web/generated_plugin_registrant.dart
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+*.env
+
+# Others
+*.log
+*.tmp
+
+# For Firebase or other secrets
+firebase.json
+firebase_options.dart
