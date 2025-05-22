@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        EC2_HOST = "ubuntu@54.144.16.172
+        EC2_HOST = "ubuntu@54.144.16.172"
         DOCKER_IMAGE_NAME = "app"
         DOCKER_TAG = "latest"
         REMOTE_APP_DIR = "/homr/ubuntu/app"
